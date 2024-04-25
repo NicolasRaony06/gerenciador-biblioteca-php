@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Empréstimo</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://classless.de/classless.css">
+    </head>
+    <Body>
+        <h1>Cadastro de Empréstimo</h1>
+        <form action="emprestimo_cadastro.php" method="post">
+
+            <label for="data_emprestimo">data_emprestimo</label>
+            <input type="text" name="data_emprestimo" id="data_emprestimo" placeholder="aaaa-mm-dd" required>
+            
+            <label for="data_devolu_prevista">Data de Devolução Prevista</label>
+            <input type="text" name="data_devolu_prevista" id="data_devolu_prevista"  placeholder="aaaa-mm-dd" required>
+
+            <label for="data_devolu_efetuada">data_devolu_efetuada</label>
+            <input type="text" name="data_devolu_efetuada" id="data_devolu_efetuada"  placeholder="aaaa-mm-dd" >
+
+            <label for="status_emprestimo">Status do Empréstimo</label>
+            <input type="text" name="status_emprestimo" id="status_emprestimo">
+
+            <label for="isbn_livro">ISBN do Livro</label>
+            <input type="text" name="isbn_livro" id="isbn_livro" required>
+
+            <label for="id_exemplar">Id do exemplar</label>
+            <input type="text" name="id_exemplar" id="id_exemplar" required>
+
+            <label for="usuario_cpf">usuario_cpf</label>
+            <input type="text" name="usuario_cpf" id="usuario_cpf" required>
+
+            <button><a href="LOBBY.html">Anterior</a></button>
+            <button>Enviar</button>
+
+        </form>
+
+    </Body>
+    
+</html>

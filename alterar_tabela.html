@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<Html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Alterar Tabela</title>
+        <link rel="stylesheet" href="https://classless.de/classless.css">
+    </head>
+    <body>
+        <h1>Alterar Tabela</h1>
+        <form action="alterar_tabela.php" method="post">
+            <label for="nome_tabela">Nome da Tabela</label>
+            <input type="text" id="nome_tabela" name="nome_tabela" required>
+
+            <label for="nome_id_tabela">Nome do Identificador da Tabela</label>
+            <input type="text" id="nome_id_tabela" name="nome_id_tabela" placeholder="exemplo: endereco_id" required>
+
+            <label for="valor_id_tabela">Valor do Identificador da Tabela</label>
+            <input type="text" id="valor_id_tabela" name="valor_id_tabela" placeholder="exemplo: 23 ou '000.000.000-00'" required>
+
+            <label for="nome_campo">Nome do Campo a ser Alterado</label>
+            <input type="text" name="nome_campo" id="nome_campo" placeholder="exemplo: cpf" required>
+
+            <label for="novo_valor">Novo Valor a ser Adicionado</label>
+            <input type="text" name="novo_valor" id="novo_valor" required placeholder="exemplo: 'Daniel'">
+            
+            <button><a href="LOBBY.html">Anterior</a></button>
+            <button>Enivar</button>
+        </form>
+    </body>
+</Html>

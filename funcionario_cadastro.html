@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Cadastro de Funcionário</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://classless.de/classless.css">
+<body>
+    <h1>Cadastro de Funcionário</h1>
+    <form action="funcionario_cadastro.php" method="post">
+        <label>
+            <h5>CPF</h5>
+            <input type="text" name="cpf" placeholder="000.000.000-00" required>
+        </label>
+
+        <label>
+            <h5>Nome</h5>
+            <input type="text" name="nome" required>
+        </label>
+
+        <fieldset>
+            <legend>Cargo</legend>
+            <label>
+                <input type="radio" name="cargo" value="Administrador Geral" required> 
+                Administrador Geral
+                <p>
+            </label>
+            <label>
+                <input type="radio" name="cargo" value="Usuário Padrão" required> 
+                Usuário Padrão
+                <p>
+            </label>   
+        </fieldset>
+
+        <label>
+            <legend><h5>Telefone</h5></legend>
+            <input type="text" id="telefone" name="telefone" placeholder="(DDD)0000-0000">
+        </label>
+
+        <label>
+            <legend><h5>E-mail</h5></legend>
+            <input type="text" id="email" name="email">
+        </label>
+        
+        <br>
+
+        <br>
+        <button><a href="LOBBY.html">Anterior</a></button>
+        <button>Enviar</button>
+
+    </form>
+</body>
+</head>
+</html>

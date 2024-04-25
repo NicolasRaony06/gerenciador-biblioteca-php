@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOBBY</title>
+        <meta charset="UTF-8 ">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
+    </head>
+    <body>
+        <h1 style="font-size: 50px; color: rgb(227, 242, 255);"><b>GERENCIADOR DE BIBLIOTECA</b></h1> 
+        <fieldset style="margin-right: 50%;margin-top: -2%;">
+                    
+            <legend style="font-size: 30px;">Tabelas</legend>
+
+            <a href="funcionario_cadastro.html">
+                <b style="color: white;">Cadastro de Funcionário</b>
+            </a>
+            
+            <a href="usuario_cadastro.html">
+                <p><b style="color: white;">Cadastro de Usuário</b></p>
+            </a>
+
+            <a href="autores_cadastro.html">
+                <p><b style="color: white;">Cadastro de Autores</b></p>
+            </a>
+
+            <a href="endereco_cadastro.html">
+                <p><b style="color: white;">Cadastro de Endereço</b></p>
+            </a>
+
+            <a href="editora_cadastro.html">
+                <p><b style="color: white;">Cadastro de Editora</b></p>
+            </a>
+
+            <a href="livro_cadastro.html">
+                <p><b style="color: white;">Cadastro de Livro</b></p>
+            </a>
+
+            <a href="cadastro_emprestimo.html">
+                <p><b style="color: white;">Cadastro de Empréstimo</b></p>
+            </a>
+
+            <a href="reserva_cadastro.html">
+                <p><b style="color: white;">Cadastro de Reserva</b></p>
+            </a>
+
+            <a href="exemplar_cadastro.html">
+                <p><b style="color: white;">Cadastro de Exemplar</b></p>
+            </a>
+
+            
+        </fieldset>
+
+        <fieldset style="margin-left: 60%;margin-top: -50%;">
+
+            <legend><label for="nome_tabelas"><b style="color: white; font-size: 30px;">Consulta de Tabelas</b></label></legend>
+
+            <form action="consulta_tabela.php" method="post">
+                <select name="nome_tabelas" id="nome_tabelas">
+                    <option value="1">Consultar Funcionarios</option>
+                    <option value="2">Consultar Usuários</option>
+                    <option value="3">Consultar Autores</option>
+                    <option value="4">Consultar Endereço</option>
+                    <option value="5">Consultar Editora</option>
+                    <option value="6">Consultar Livro</option>
+                    <option value="7">Consultar Empréstimos</option>
+                    <option value="8">Consultar Reservas</option>
+                    <option value="9">Consultar Exemplares</option>
+                </select>
+                    
+                <button style="width: 70%;line-height: 30%;">Enviar</button>
+            </form>
+        </fieldset>
+
+        <fieldset style="margin-left: 60%;margin-top: 7%;">
+
+            <legend><b style="color: white; font-size: 30px;">Alteração de Tabelas</b></legend>
+
+            <button style="width: 70%;line-height: 40%;"><a href="alterar_tabela.html">
+                <b style="color: white;">Alterar Tabela</b>
+            </a></button>
+
+            <button style="width: 70%;line-height: 40%;"><a href="deletar_tabela.html">
+                <b style="color: white;">Deletar Tabela</b>
+            </a></button>
+        
+        </fieldset>
+                    
+
+    </body>
+</html>

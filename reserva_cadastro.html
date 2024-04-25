@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Reserva</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://classless.de/classless.css">
+    </head>
+    <Body>
+        <h1>Cadastro de Reserva</h1>
+        <form action="reserva_cadastro.php" method="post">
+
+            <label for="data_reserva">data_reserva</label>
+            <input type="text" name="data_reserva" id="data_reserva" placeholder="aaaa-mm-dd" required>
+
+            <label for="status_reserva">Status do Reserva</label>
+            <input type="text" name="status_reserva" id="status_reserva">
+
+            <label for="isbn_livro">ISBN do Livro</label>
+            <input type="text" name="isbn_livro" id="isbn_livro" required>
+
+            <label for="cpf_usuario">cpf_usuario</label>
+            <input type="text" name="cpf_usuario" id="cpf_usuario" required>
+
+            <button><a href="LOBBY.html">Anterior</a></button>
+            <button>Enviar</button>
+
+        </form>
+
+    </Body>
+    
+</html>
